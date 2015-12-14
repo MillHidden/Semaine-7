@@ -1,0 +1,154 @@
+/** **/
+/* propriétés générales*/
+/** */
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #99E4E4 ;
+}
+
+header, main, footer {
+	border-radius: 50px;
+	
+	background-attachment: fixed;
+	background-repeat: repeat;
+	
+}
+
+h2 {
+	font-family: Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'distant_strokeregular';
+    src: url('../Fonts/distant_stroke-webfont.eot');
+    src: url('../Fonts/distant_stroke-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/distant_stroke-webfont.woff2') format('woff2'),
+         url('../Fonts/distant_stroke-webfont.woff') format('woff'),
+         url('../Fonts/distant_stroke-webfont.ttf') format('truetype'),
+         url('../Fonts/distant_stroke-webfont.svg#distant_strokeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* */
+/** style header**/
+/* */
+
+header {
+	height: 220px;
+	
+	background-image: url("../Images/geometry2.png");
+}
+
+.header__logo {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 15px;
+}
+
+.header__name {
+	margin-left: 5px;
+	margin-top: 50px;
+	padding-top: 5px;
+	
+	font-size: 1.2em;
+	font-family: Verdana, sans-serif;
+	color: blue;
+}
+
+/* */
+/** style main**/
+/* */
+
+main {
+	margin: 15px;
+	padding: 15px;
+	
+	background-image: url("../Images/green_cup.png");
+	
+	font-family: distant_strokeregular, Verdana, sans-serif;
+	font-weight:bold;
+	font-size: 2em;
+	text-align: justify;
+}
+
+.main__paragraphe {
+	border-right: 1 solid black;
+}
+
+main li {
+	list-style-type: circle;
+}
+
+.paragraphe__titre {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+
+
+
+
+/* */
+/** style footer**/
+/* */
+
+footer {
+	background-image: url("../Images/stardust.png");
+	
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	
+}
+
+.footer__map_info {
+  height:450px;
+  line-height:450px;
+}
+
+
+iframe {
+	height: 450px;
+	width: 100%;
+	border:0;
+}
+
+.footer__info {
+	display: inline-block;
+	text-align: center;
+	line-height:225px;
+}
+
+.footer__lien {
+	color:#39D267;
+}
+
+.footer__lien:hover {
+	font-weight: bold;
+	
+	text-decoration: none;
+	color:#4DE6B9;
+}
+
+
+#top, #paragraphes, #carte {
+	position: relative;
+	top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
