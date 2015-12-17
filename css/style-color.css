@@ -1,0 +1,72 @@
+body {
+    background-image:url("../Images/geometry2.png");
+    color:#864E4E;
+}
+
+/***********
+*  header  *
+***********/
+
+.header-style {
+    background-image:url(../Images/stardust.png);
+    background-attachment: fixed;
+    
+    color: #CDCEF7;
+}
+
+/***********
+*   main   *
+***********/
+
+/* zone de texte */
+.exp-style {
+    background-image:url(../Images/windrader-1048981_960_720.jpg);
+    background-attachment: fixed;
+    
+    color:#1B1C46;
+}
+
+/* portefolio */
+
+.portfolio-style {
+    background-image:url(../Images/germany-1014376_960_720.jpg);
+    background-attachment: fixed;
+}
+
+#filters li span {
+    color:#666;
+}
+
+    #filters li span .active {
+        background: #e95a44;
+        color:#fff;
+    }
+    
+.portfolio-wrapper {
+    background: #666;
+}
+
+    .portfolio .label-bg {
+        background: #e95a44;
+    }
+
+    .portfolio .label-text {
+        color:#fff;
+    }
+
+/***********
+*  footer  *
+***********/
+
+.footer-style {
+    background-image:url(../Images/green_cup.png);
+    background-attachment: fixed;
+}
+
+.footer__lien {
+    	color:#E63C3C;
+    }
+    
+    .footer__lien:hover {
+        	color:#7B1212;
+        }
